@@ -1,0 +1,59 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>impress.js | presentation tool based on the power of CSS3 transforms and transitions in modern browsers | by Bartek Szopka @bartaz</title>
+    
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Bartek Szopka" />
+
+    <link href="impress.js/css/impress-demo.css" rel="stylesheet" />
+
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+<section id="overview" class="level1 step" data-scale="10">
+<h1></h1>
+</section>
+<section id="make-your-customer-the-hero-of-you-story" class="level1 step title">
+<h1>&quot;Make your customer the hero of you story!&quot;</h1>
+<p>Content Marketing and Content Strategy</p>
+<p>Heinz Wittenbrink <span class="citation" data-cites="heinz">@heinz</span></p>
+</section>
+<section id="section" class="level1 step" data-x="2000">
+<h1></h1>
+<p>&quot;Every Company is a Media Company&quot;: Why brands become publishers</p>
+</section>
+<section id="section-1" class="level1 step slide" data-x="4000">
+<h1></h1>
+<p>We live in a society in which we are more and more digitally connected to each other. In this society the public sphere is no longer produced by the mass media. More and more economic processes are happening publicly and in a networked way. Whoever is participating in society is producing content about themselves and about everything they are doing and is perceived via this content. Content strategy is nothing more than a strategic approach to this content. Content marketing means to use this content in a targeted way for marketing purposes. Brands are perceived via content because they are acting today in a networked way, publicly and in realtime.</p>
+</section>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+
+<script src="impress.js/js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
+
